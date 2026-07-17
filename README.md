@@ -11,7 +11,7 @@
 
 ## 📌 Overview
 
-UPI Offline Mesh is a Spring Boot-based simulation of an offline digital payment system that enables users to initiate transactions without internet connectivity.
+UPI Offline mode is a Spring Boot-based simulation of an offline digital payment system that enables users to initiate transactions without internet connectivity.
 
 Instead of requiring an active network connection, encrypted payment packets are propagated through nearby devices in a mesh network until an internet-connected bridge node uploads them to the backend for settlement.
 
