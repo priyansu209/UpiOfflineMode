@@ -405,17 +405,19 @@ Implemented tests for:
 
 ### Dashboard
 
+![Dashboard](screenshots/dashboard.png)
 
-### Dashboard
-![Dashboard](Screen Shot/dashboard.png)
+### Packet Creation
 
-### Packet creation
-![Packet Created](Screen Shot/Packet_created.png)
-### Transfer Packet
-![Transfer Packet](Screen Shot/transfer_packet.png)
-### Cpmplete Transaction
-![Complete Transaction](Screen Shot/complete_transaction.png)
+![Packet Creation](screenshots/Packet_created.png)
 
+### Packet Transfer
+
+![Transfer Packet](screenshots/transfer_packet.png)
+
+### Complete Transaction
+
+![Complete Transaction](screenshots/complete_transaction.png)
 
 ---
 
