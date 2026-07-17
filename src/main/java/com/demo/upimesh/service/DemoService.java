@@ -34,11 +34,22 @@ public class DemoService {
     @PostConstruct
     public void seedAccounts() {
         if (accounts.count() == 0) {
-            accounts.save(new Account("alice@demo", "Alice",   new BigDecimal("5000.00")));
-            accounts.save(new Account("bob@demo",   "Bob",     new BigDecimal("1000.00")));
-            accounts.save(new Account("carol@demo", "Carol",   new BigDecimal("2500.00")));
-            accounts.save(new Account("dave@demo",  "Dave",    new BigDecimal("500.00")));
-            log.info("Seeded 4 demo accounts");
+            // New realistic accounts requested by the user
+            accounts.save(new Account("priyansu@demo", "Priyansu", new BigDecimal("10000.00")));
+            accounts.save(new Account("nishant@demo",  "Nishant",  new BigDecimal("10000.00")));
+            accounts.save(new Account("yash@demo",     "Yash",     new BigDecimal("10000.00")));
+            accounts.save(new Account("shawk@demo",    "Shawk",    new BigDecimal("10000.00")));
+            accounts.save(new Account("asthana@demo",  "Asthana",  new BigDecimal("10000.00")));
+            accounts.save(new Account("rishi@demo",    "Rishi",    new BigDecimal("10000.00")));
+            accounts.save(new Account("puhkar@demo",   "Puhkar",   new BigDecimal("10000.00")));
+            accounts.save(new Account("pranjal@demo",  "Pranjal",  new BigDecimal("10000.00")));
+
+            // Existing accounts kept for test compatibility
+            accounts.save(new Account("alice@demo", "Alice",   new BigDecimal("10000.00")));
+            accounts.save(new Account("bob@demo",   "Bob",     new BigDecimal("10000.00")));
+            accounts.save(new Account("carol@demo", "Carol",   new BigDecimal("10000.00")));
+            accounts.save(new Account("dave@demo",  "Dave",    new BigDecimal("10000.00")));
+            log.info("Seeded demo accounts");
         }
     }
 
