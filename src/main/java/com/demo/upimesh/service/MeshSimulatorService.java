@@ -32,11 +32,13 @@ public class MeshSimulatorService {
     }
 
     private void seedDefaultDevices() {
-        devices.put("phone-alice",   new VirtualDevice("phone-alice",   false));
-        devices.put("phone-stranger1", new VirtualDevice("phone-stranger1", false));
-        devices.put("phone-stranger2", new VirtualDevice("phone-stranger2", false));
-        devices.put("phone-stranger3", new VirtualDevice("phone-stranger3", false));
-        devices.put("phone-bridge",  new VirtualDevice("phone-bridge",  true));
+        devices.put("phone-priyansu", new VirtualDevice("phone-priyansu", false));
+        devices.put("phone-yash",     new VirtualDevice("phone-yash",     false));
+        devices.put("phone-shawk",    new VirtualDevice("phone-shawk",    false));
+        devices.put("phone-asthana",  new VirtualDevice("phone-asthana",  false));
+        devices.put("phone-rishi",    new VirtualDevice("phone-rishi",    false));
+        devices.put("phone-puhkar",   new VirtualDevice("phone-puhkar",   false));
+        devices.put("phone-pranjal",  new VirtualDevice("phone-pranjal",  true));
     }
 
     public Collection<VirtualDevice> getDevices() {
