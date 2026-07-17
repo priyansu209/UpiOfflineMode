@@ -1,4 +1,4 @@
-# UPI Offline Mesh
+# UPI offline mode via Bluetooth Hooping
 
 > Secure Offline UPI Payment System using Mesh Networking, Hybrid Encryption, and Idempotent Settlement.
 
